@@ -4,7 +4,7 @@ body{
 	margin-right:auto;
   background-image: url('./background1.png'), url('./background2.jpg');
   background-size: cover;
-  background-repeat: round;
+  background-repeat:round;
 }
 header{
 	width:60%;
@@ -19,12 +19,13 @@ header{
 }
 section{
   margin-top:100px;
-  margin-left: 200px;
-  margin-right: 200px;
-  margin-bottom: 200px;
+	margin-bottom: 200px;
+  margin-left: 5%;
+  margin-right: 5%;
   display:flex;
   position: relative;
   justify-content: space-around;
+	align-items: center;
   /* background: purple; */
 }
 a{
@@ -38,21 +39,21 @@ a{
   align-items: center;
 	flex-direction: column;
 	flex-shrink: 0;
+
 }
 a:hover{
   box-shadow: 10px 10px 50px 50px;
-  color:yellow;
+	font-size: 25px;
+	border-radius: 120px;
 }
 #igen{
   color:red;
   background-image: url('./link1.jpg');
   background-size: 800px;
-  margin-left: 20px;
 }
 #nem{
-  margin-top:210px;
-  margin-right:50px;
-  color:green;
+	color:green;
+	margin-top:220px;
   background-image: url('./link2.jpg');
   background-size: 380px;
 }
