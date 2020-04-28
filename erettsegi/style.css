@@ -1,13 +1,13 @@
 body{
-	width:1200px;
+	/* width:1200px; */
 	margin-left:auto;
 	margin-right:auto;
   background-image: url('./background1.png'), url('./background2.jpg');
-  background-size: 1200px, 1200px;
+  background-size: cover;
   background-repeat: round;
 }
 header{
-	width:800px;
+	width:60%;
   margin-top:35px;
 	background-image: url('./header1.jpg');
   background-size: 200px;
